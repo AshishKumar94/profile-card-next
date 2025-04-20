@@ -64,9 +64,9 @@ const ProfileCard = ({
           </a>
         )}
         {twitterUrl && (
-            <a href={twitterUrl} target="_blank" rel="noreferrer">
-              <XIcon className="text-indigo-700" />
-            </a>
+          <a href={twitterUrl} target="_blank" rel="noreferrer">
+            <XIcon className="text-indigo-700" />
+          </a>
         )}
       </div>
     </div>

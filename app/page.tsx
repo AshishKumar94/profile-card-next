@@ -21,7 +21,7 @@ export default function Home() {
       className="grid min-h-screen grid-rows-[20px_1fr_20px] justify-items-center gap-16 p-8 pb-20 font-[family-name:var(--font-geist-sans)] sm:p-20"
       style={{ background: 'linear-gradient(#f9fafb, #d2d6db)' }}
     >
-      <main className="row-start-1 flex flex-col items-center gap-[32px] sm:items-start" style={{ marginTop: '40px' }}>
+      <main className="row-start-1 flex flex-col items-center gap-[32px] sm:items-start" style={{ marginTop: '120px' }}>
         {blogCards.map((card) => {
           return <ProfileCard key={card.profileId} {...card} />;
         })}
